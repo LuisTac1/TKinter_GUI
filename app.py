@@ -19,7 +19,6 @@ main_frame.pack_propagate(False)
 main_frame.place(x=5, y=0)
 main_frame.configure(width=890, height=600)
 
-
 # Label root
 Label_root= tk.Label(root, bg='gray10', text='This is my first GUI in Python', font=('Bold', 15), fg='gray50')
 Label_root.pack(side=tk.BOTTOM)
@@ -63,7 +62,6 @@ def top_colum():
     top_frame.configure(width=900, height=80)
 
 top_colum()
-
 
 def bottom_colum():
     # Frame bottom
@@ -111,7 +109,6 @@ def right_colum():
     item_button3.place(x=1, y=90)
     item_button3.configure(width=13, height=1)
 
-
     listbox = Listbox(right_frame, bg='gray25', bd=0)  
     listbox.insert(1,"Option 1",)  
     listbox.insert(2, "Option 2")  
@@ -119,7 +116,6 @@ def right_colum():
     listbox.insert(4, "Option 4")
     listbox.insert(5, "Option 5")
     listbox.place(x=0, y=420)
-
 
 
 right_colum()
