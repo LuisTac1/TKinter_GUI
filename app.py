@@ -72,6 +72,7 @@ def bottom_colum():
 
 bottom_colum()
 
+
 # function right colum
 def right_colum():
     # Frame right
@@ -116,7 +117,6 @@ def right_colum():
     listbox.insert(4, "Option 4")
     listbox.insert(5, "Option 5")
     listbox.place(x=0, y=420)
-
 
 right_colum()
 
@@ -182,6 +182,7 @@ def option_left():
         separator = ttk.Separator(option_frame, orient='horizontal')
         separator.pack(fill='x')
 
+    
     # Frame left
     option_frame = tk.Frame(root, bg='gray25')
     option_frame.pack(side=tk.LEFT)
